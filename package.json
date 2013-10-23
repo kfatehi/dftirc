@@ -1,0 +1,18 @@
+{
+  "name": "dftirc",
+  "version": "0.0.1",
+  "description": "IRC bot and webserver for DigitalFilm Tree's software crew",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DFTi/dftirc.git"
+  },
+  "keywords": [
+    "irc"
+  ],
+  "author": "Keyvan Fatehi",
+  "license": "BSD"
+}
