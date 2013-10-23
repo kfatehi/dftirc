@@ -4,8 +4,8 @@
   "description": "IRC bot and webserver for DigitalFilm Tree's software crew",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-    "test": "mocha test/**/*.js"
+    "start": "node index.js",
+    "test": "node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,8 @@
   "author": "Keyvan Fatehi",
   "license": "BSD",
   "devDependencies": {
-    "mocha": "~1.13.0"
+    "mocha": "~1.13.0",
+    "chai": "~1.8.1"
   },
   "dependencies": {
     "irc": "~0.3.6",
