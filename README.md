@@ -1,5 +1,7 @@
 # Dftirc
 
+**Work in Progress**
+
 * Hangs out in IRC
 * Provides an web-based API to announce things in IRC
   - Trello, Github, Bait
